@@ -4,9 +4,9 @@ This project is built on Flytos using flytsim and Gazebo for simulation of drone
 This file contains step by step guide on how to run the sqr_traj_drone.py file.    
  Prerequisite:
  1. Flytos Installation : For installing flytos on your Ubuntu 16.04(used flavour of linux by me) you need an account of Flytbase and using following link you can install flytos in your system. Installing flytos will automatically install required ros version and gazebo simulator tool for this project.
- Link for flyos: 
+ Link for flyos: https://docs.flytbase.com/flytos/getting-started/setup-flytos/odroid-xu4/installing-flytos-dependencies-in-your-custom-image
  2. Flytsim Installation : For installing flytsim from your flytbase account download the file from following link of flytbase docker engine. 
- link for flysim docker :
+ link for flysim docker : https://github.com/flytbase/flytsim-docker/releases/tag/v0.2.3
  Ater that open the terminal, go to flytdocker directory, select your os and select your graphic card(in my case I used intelgraphics). 
  Then run command 'sudo ./setup.sh' to install docker engine and docker-compose in your system. 
  
