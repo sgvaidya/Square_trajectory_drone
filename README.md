@@ -7,7 +7,7 @@ This file contains step by step guide on how to run the sqr_traj_drone.py file.
  Link for flyos: https://docs.flytbase.com/flytos/getting-started/setup-flytos/odroid-xu4/installing-flytos-dependencies-in-your-custom-image
  2. Flytsim Installation : For installing flytsim from your flytbase account download the file from following link of flytbase docker engine. 
  link for flysim docker : https://github.com/flytbase/flytsim-docker/releases/tag/v0.2.3
- Ater that open the terminal, go to flytdocker directory, select your os and select your graphic card(in my case I used intelgraphics). 
+ After that open the terminal, go to flytdocker directory, select your os and select your graphic card(in my case I used intelgraphics). 
  Then run command 'sudo ./setup.sh' to install docker engine and docker-compose in your system. 
  
  This will complete required steps to launch flytsim and gazebo for simulation.
